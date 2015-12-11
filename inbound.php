@@ -3,7 +3,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $response = new Services_Twilio_Twiml();
 $gather = $response->gather(array(
-    'action' => '[your url]/process_poll.php',
+    'action' => 'http://czn3lqf-afp-app000.c4sa.net/process_poll.php',
     'method' => 'GET',
     'timeout' => '30',
     'numDigits' => '1'
