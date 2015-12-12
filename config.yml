@@ -1,0 +1,5 @@
+name: Twilio投票プラグイン
+code: TwilioPoll
+version: 0.0.2
+service:
+    - TwilioPollServiceProvider

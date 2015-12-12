@@ -1,0 +1,10 @@
+tar-exclude.lst
+.git
+*.tar.gz
+composer.*
+release.sh
+.idea
+.gitignore
+process_poll.php
+inbound.php
+README.md
